@@ -1,0 +1,6 @@
+@Lista3.Api_HostAddress = http://localhost:5158
+
+GET {{Lista3.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
