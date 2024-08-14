@@ -29,19 +29,19 @@ namespace Lista3.Api.Controllers
             {
                 return Ok("Abaixo do Peso Normal");
             }
-            else if (IMC >= 18.5 || IMC < 25)
+            else if (IMC >= 18.5 &&  IMC < 25)
             {
                 return Ok("Peso normal");
             }
-            else if (IMC >= 25 ||IMC <35)
+            else if (IMC >= 25 && IMC <35)
             {
                 return Ok("Excesso de peso");
             }
-            else if (IMC >= 30 ||IMC < 35)
+            else if (IMC >= 30 && IMC < 35)
             {
                 return Ok("Obsesidade classe 1");
             }
-            else if (IMC >= 35 || IMC < 40)
+            else if (IMC >= 35 && IMC < 40)
             {
                 return Ok("Obsesidade classe 2");
             }

@@ -31,7 +31,7 @@ namespace Lista3.Api.Controllers
             else if (request.UF == "MG")
             {
                 taxa = (int)TarifasFrete.MG;
-            }
+            }   
             else
             {
                 taxa = (int)TarifasFrete.Outros;
